@@ -187,8 +187,41 @@ for number in range(1,21):
         print(f"{number} odd ")
 
 """ 
-user_number = int(input("Please input number: "))
+# count to 10
 
-for number in range(1,user_number):
-    result = user_number * number
-    
+""" 
+number = 10
+
+for number in range(1,11):
+    print(number)
+
+""" 
+""" 
+total = 0
+
+for number in range(1,101):
+    total = number + total
+print(total)
+""" 
+"""
+number = 21
+
+for number in range (1,21):
+    if number % 2 == 0:
+        print(f"{number} Even")
+    else:
+        print(f"{number} odd")
+"""
+"""
+num = int(input("Enter a number: "))
+
+for i in range (1,11):
+    multiply = num * i
+    print(multiply) 
+"""
+#Reverse countdown
+
+for i in range(10, 0, -1):
+    print(i)
+
+print("Go!")
